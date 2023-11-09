@@ -1,6 +1,6 @@
 # Tunisia Energy Fraud Detection STEG
 
-![Project Image](https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/img/Logo.jpg)
+![Project Image](https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/img/prjctLogo.jpg)
 
 ## Introduction 🌟
 
