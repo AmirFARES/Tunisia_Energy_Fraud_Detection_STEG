@@ -1,6 +1,6 @@
 # Tunisia Energy Fraud Detection STEG
 
-![Project Image](https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/imgs/energy_fraud_logo.png)
+![Project Image](https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/img/Logo.jpg)
 
 ## Introduction 🌟
 
@@ -15,13 +15,11 @@ Detect and prevent fraudulent activities in electricity and gas consumption to e
 All data is provided by the Tunisian Company of Electricity and Gas (STEG). You can access the data at [**Zindi data section**](https://zindi.africa/competitions/fraud-detection-in-electricity-and-gas-consumption-challenge/data).
 
 **File Descriptions:**
-- [**train.csv**](link) Contains the target. This is the dataset used for model training.
-- **Starter Notebook:** This notebook helps you make your first submission for this challenge.
-  - [**Fraud_Detection_Starter.ipynb**](link) - 116.8 KB
-- **Test:** Resembles Train.csv but without the target-related columns. This is the dataset on which you will apply your model.
-  - [**test.zip**](link) - 26.4 MB
-- **Sample Submission:** Shows the submission format for this competition, with the ‘ID’ column mirroring that of Test.csv and the ‘target’ column containing your predictions. The order of the rows does not matter, but the names of the ID must be correct.
-  - [**SampleSubmission.csv**](link) - 2.1 MB
+- **train.csv** - Contains the target. This is the dataset used for model training.
+- **Fraud_Detection_Starter.ipynb** - This notebook helps you make your first submission for this challenge.
+- **Test.csv** - Resembles Train.csv but without the target-related columns. This is the dataset on which you will apply your model.
+- **SampleSubmission.csv** - Shows the submission format for this competition, with the ‘ID’ column mirroring that of Test.csv and the ‘target’ column containing your predictions. The order of the rows does not matter, but the names of the ID must be correct.
+- My Notebook [**on kaggle**](https://www.kaggle.com/code/amirfares/tunisia-energy-fraud-detection-steg) or [**tunisia-energy-fraud-detection-steg.ipynb**](https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/tunisia-energy-fraud-detection-steg.ipynb)
 
 
 ## Methodology 🚀
@@ -31,6 +29,7 @@ Approach:
 - Exploratory Data Analysis (EDA) on client and invoice data.
 - Correlation analysis, feature engineering, and aggregation to improve model performance.
 - Utilized an XGBoost classifier with tuning for optimal AUC.
+<img src="https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/img/TargetDist.png" alt="Line Chart" width="460" height="427">
 
 ## Data Preprocessing 🛠️
 
@@ -67,6 +66,7 @@ model = XGBClassifier(
 **Key Findings:**
 - Identified significant features, including the number of counters used, counter state, counter coefficient, tarif type, and reading remarque.
 - Achieved a top-performing model with an AUC of 0.8641.
+<img src="https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/img/Top30corr.png" alt="Line Chart" width="700" height="129">
 
 ## Future Work 🚧
 
