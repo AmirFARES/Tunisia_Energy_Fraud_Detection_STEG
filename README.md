@@ -12,7 +12,7 @@ Detect and prevent fraudulent activities in electricity and gas consumption to e
 
 ## Data Sources 📊
 
-All data is provided by the Tunisian Company of Electricity and Gas (STEG). You can access the training and test data from [**train.zip**](link) and [**test.zip**](link), respectively. For further details, refer to [**SampleSubmission.csv**](link).
+All data is provided by the Tunisian Company of Electricity and Gas (STEG). You can access the data at [**Zindi data section**](https://zindi.africa/competitions/fraud-detection-in-electricity-and-gas-consumption-challenge/data).
 
 ## Methodology 🚀
 
@@ -24,7 +24,10 @@ Approach:
 
 ## Data Preprocessing 🛠️
 
-*Provide insights into how the data was cleaned, handled missing values, and any transformations performed.*
+- Checked for NaN values.
+- Transformed data types.
+- And applied label and one-hot encoding to categorical columns.
+
 
 ## Model Architecture 🏗️
 
@@ -40,3 +43,5 @@ model = XGBClassifier(
     reg_lambda=1,
     reg_alpha=0,
 )
+
+fdsf
