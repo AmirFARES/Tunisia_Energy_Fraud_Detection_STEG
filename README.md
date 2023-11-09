@@ -14,6 +14,14 @@ Detect and prevent fraudulent activities in electricity and gas consumption to e
 
 All data is provided by the Tunisian Company of Electricity and Gas (STEG). You can access the data at [**Zindi data section**](https://zindi.africa/competitions/fraud-detection-in-electricity-and-gas-consumption-challenge/data).
 
+**File Descriptions:**
+- [**train.csv**](link) Contains the target. This is the dataset used for model training.
+- **Starter Notebook:** This notebook helps you make your first submission for this challenge.
+  - [**Fraud_Detection_Starter.ipynb**](link) - 116.8 KB
+- **Test:** Resembles Train.csv but without the target-related columns. This is the dataset on which you will apply your model.
+  - [**test.zip**](link) - 26.4 MB
+- **Sample Submission:** Shows the submission format for this competition, with the ‘ID’ column mirroring that of Test.csv and the ‘target’ column containing your predictions. The order of the rows does not matter, but the names of the ID must be correct.
+  - [**SampleSubmission.csv**](link) - 2.1 MB
 
 
 ## Methodology 🚀
