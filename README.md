@@ -66,7 +66,7 @@ model = XGBClassifier(
 **Key Findings:**
 - Identified significant features, including the number of counters used, counter state, counter coefficient, tarif type, and reading remarque.
 - Achieved a top-performing model with an AUC of 0.8641.
-<img src="https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/img/Top30corr.png" alt="Line Chart" width="700" height="129">
+<img src="https://github.com/AmirFARES/Tunisia_Energy_Fraud_Detection_STEG/blob/main/img/Top30corr.png" alt="Line Chart" width="1322" height="244">
 
 ## Future Work 🚧
 
