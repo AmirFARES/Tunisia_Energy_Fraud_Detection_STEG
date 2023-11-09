@@ -4,7 +4,7 @@
 
 ## Introduction 🌟
 
-Tackle electricity and gas fraud in Tunisia using data-driven insights. Achieved top 25% in the leaderboard with an XGBoost model boasting an AUC of 0.86.
+Tackle electricity and gas fraud in Tunisia 🇹🇳 using data-driven insights. Achieved top 25% in the leaderboard with an XGBoost model boasting an AUC of 0.86.
 
 ## Key Objectives 🎯
 
@@ -13,6 +13,8 @@ Detect and prevent fraudulent activities in electricity and gas consumption to e
 ## Data Sources 📊
 
 All data is provided by the Tunisian Company of Electricity and Gas (STEG). You can access the data at [**Zindi data section**](https://zindi.africa/competitions/fraud-detection-in-electricity-and-gas-consumption-challenge/data).
+
+
 
 ## Methodology 🚀
 
@@ -43,5 +45,39 @@ model = XGBClassifier(
     reg_lambda=1,
     reg_alpha=0,
 )
+```
 
-fdsf
+## Training and Evaluation 📈
+
+- **Optimization:** XGBoost's boosting process corrects errors of the combined ensemble.
+- **Loss Function:** Binary logistic.
+- **Epochs and Early Stopping:** Utilized 4000 estimators without early stopping for the final model.
+- **Evaluation Metrics:** Focused on AUC, f1 score, and other relevant metrics.
+
+## Conclusion 🎯
+
+**Key Findings:**
+- Identified significant features, including the number of counters used, counter state, counter coefficient, tarif type, and reading remarque.
+- Achieved a top-performing model with an AUC of 0.8641.
+
+## Future Work 🚧
+
+- Fine-tune the model for better performance.
+- Explore anomaly detection approaches.
+- Experiment with more robust anomaly detection models.
+- Address misclassified labels for improved accuracy.
+
+
+## Connect with Me 📫
+
+Feel free to reach out for any project-related inquiries, collaboration opportunities, or discussions. You can connect with me on [LinkedIn](https://www.linkedin.com/in/amir-f), explore more of my projects on [GitHub](https://github.com/AmirFARES), and check out my portfolio [here](https://amirfares.github.io/).
+
+## Acknowledgments 🙏
+
+I'd like to express my gratitude to Zindi the organizers of this challenge.
+
+Thank you for visiting my project repository, and I'm excited to share more data-driven insights in the future!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/amir-f)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange)](https://amirfares.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-green)](https://github.com/AmirFARES)
