@@ -4,7 +4,7 @@
 
 ## Introduction 🌟
 
-Tackle electricity and gas fraud in Tunisia 🇹🇳 using data-driven insights. Achieved top 25% in the leaderboard with an XGBoost model boasting an AUC of 0.86.
+Combatting electricity and gas fraud in Tunisia 🇹🇳 for the Tunisian Company of Electricity and Gas (STEG). With losses reaching 200 million Tunisian Dinars, I achieved a top 25% position in the leaderboard using an XGBoost model with an AUC of 0.86. By analyzing client billing history, the solution aims to detect and curb fraudulent activities, safeguarding STEG's revenues and minimizing losses.
 
 ## Key Objectives 🎯
 
